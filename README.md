@@ -42,7 +42,7 @@ Clean and Robust accuracy of BPFC trained models and PGD Adversarially trained m
     <td>87.5%</td>
     <td>79.1%</td>
     <td>99.3%</td>
-    <td>94.1%<br></td>
+    <td>   94.1%<br></td>
   </tr>
 </tbody>
 </table>
