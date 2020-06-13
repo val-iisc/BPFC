@@ -47,15 +47,6 @@ Clean and Robust accuracy of BPFC trained models and PGD Adversarially trained m
 </tbody>
 </table>
 
-\begin{table}[]
-\begin{tabular}{|c|c|c|c|c|c|c|}
-\hline
-       & \multicolumn{2}{c|}{CIFAR-10} & \multicolumn{2}{c|}{F-MNIST} & \multicolumn{2}{c|}{MNIST} \\ \hline
-Method & Clean        & PGD-1000       & Clean        & PGD-1000      & Clean       & PGD-1000     \\ \hline
-BPFC   & 82.4\%       & 34.4\%         & 87.2\%       & 67.7\%        & 99.1\%      & 85.7\%       \\ \hline
-PGD    & 82.7\%       & 47.0\%         & 87.5\%       & 79.1\%        & 99.3\%      & 94.1\%       \\ \hline
-\end{tabular}
-\end{table}
 
 # Environment Settings
 + Cuda: 10.1
