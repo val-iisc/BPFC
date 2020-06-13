@@ -12,6 +12,46 @@ Clean and Robust accuracy of BPFC trained models and PGD Adversarially trained m
 |   BPFC   |  82.4% |   34.4%  |  87.2% |   67.7%  |  99.1% |   85.7%  | 
 |   PGD    |  82.7% |   47.0%  |  87.5% |   79.1%  |  99.3% |   94.1%  |
 
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th colspan="2">CIFAR-10</th>
+    <th colspan="2">F-MNIST</th>
+    <th colspan="2">MNIST</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Method</td>
+    <td>Clean</td>
+    <td>PGD-1000</td>
+    <td>Clean</td>
+    <td>PGD-1000</td>
+    <td>Clean</td>
+    <td>PGD-1000</td>
+  </tr>
+  <tr>
+    <td>BPFC</td>
+    <td>82.4%</td>
+    <td>34.4%</td>
+    <td>87.2%</td>
+    <td>67.7%</td>
+    <td>99.1%</td>
+    <td>85.7%</td>
+  </tr>
+  <tr>
+    <td>PGD</td>
+    <td>82.7%</td>
+    <td>47.0%</td>
+    <td>87.5%</td>
+    <td>79.1%</td>
+    <td>99.3%</td>
+    <td>94.1%<br></td>
+  </tr>
+</tbody>
+</table>
+
 # Environment Settings
 + Cuda: 10.1
 + Python: 2.7.15
