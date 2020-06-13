@@ -7,8 +7,8 @@ A repository that implements adversary-free training of robust Neural Networks u
 Clean and Robust accuracy of BPFC trained models and PGD Adversarially trained models across different datasets:
 
 |: Method :|:     CIFAR 10    :|:     F MNIST     :|:      MNIST      :| 
-|   :---:  |:---:   |:---:     | :---:  |:---:     |  :---: |:---:     |
 |          |  Clean | PGD 1000 |  Clean | PGD 1000 |  Clean | PGD 1000 |
+|   :---:  |:---:   |:---:     | :---:  |:---:     |  :---: |:---:     |
 |   BPFC   |  82.4% |   34.4%  |  87.2% |   67.7%  |  99.1% |   85.7%  | 
 |   PGD    |  82.7% |   47.0%  |  87.5% |   79.1%  |  99.3% |   94.1%  |
 
