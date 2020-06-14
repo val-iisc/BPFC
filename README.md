@@ -1,12 +1,14 @@
 # Bit Plane Feature Consistency Regularizer 
 This repository contains code for the implementation of our paper titled "Towards Achieving Adversarial Robustness by Enforcing Feature Consistency Across Bit Planes", accepted at CVPR 2020. Our paper is available on arXiv [here](https://arxiv.org/abs/2004.00306).
 
-Our proposed Bit Plane Feature Consistency (BPFC) regularizer achieves adversarial robustness without the use of adversarial samples during training. Prior works which attempt to achieve this have been broken by adaptive attacks subsequently. We share our pretrained models here and invite the submission of stronger attacks for the BPFC leaderboard.
+Our proposed Bit Plane Feature Consistency (BPFC) regularizer achieves adversarial robustness without the use of adversarial samples during training. Prior works which attempt to achieve this have been broken by adaptive attacks subsequently.
 
-![schematic](https://github.com/GaurangSriramanan/BPFC/blob/master/BPFC_schematic_figure.png)
+<p align="center">
+    <img src="https://github.com/GaurangSriramanan/BPFC/blob/master/BPFC_schematic_figure.png" width="800"\>
+</p>
 
 # Robustness of BPFC Trained Models
-Clean and Robust accuracy of BPFC trained models and PGD Adversarially trained models across different datasets:
+Clean and PGD 1000-step accuracy of BPFC trained models and PGD Adversarially trained models across different datasets:
 
 
 <table>
